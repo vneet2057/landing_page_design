@@ -10,7 +10,7 @@
 }
 
 /* customer bootstrap css */
-.btn-success{
+.btn-success {
     background-color: var(--primary-color) !important;
     border: none !important;
 }
@@ -51,7 +51,7 @@
     height: 120vh;
 }
 
-.hero-section .text p{
+.hero-section .text p {
     font-size: 25px;
     font-weight: 300;
 }
@@ -95,13 +95,13 @@
     margin-right: 10px;
     font-weight: normal;
     cursor: pointer;
-  }
-  
-  .radio-button input {
+}
+
+.radio-button input {
     display: none;
-  }
-  
-  .radio-icon {
+}
+
+.radio-icon {
     position: relative;
     display: inline-block;
     width: 38px;
@@ -111,22 +111,22 @@
     text-align: center;
     vertical-align: middle;
     padding-top: 5px;
-  }
-  
-  .fa-male:before {
+}
+
+.fa-male:before {
     font-size: 25px;
-  }
-  
-  .fa-female:before {
+}
+
+.fa-female:before {
     font-size: 25px;
-  }
-  
-  .radio-button input:checked + .radio-icon {
+}
+
+.radio-button input:checked+.radio-icon {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     color: #fff;
-  }
-  
+}
+
 
 /* hero section ends */
 
@@ -139,6 +139,25 @@
 }
 
 /* image row section ends */
+
+
+/* jumbotron   */
+.jumbotron-title {
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: 'bold';
+}
+
+.jumbotron-section{
+    background-color: #ddd;
+}
+
+.jumbotron-button{
+    width: 350px;
+}
+
+/* jumbotron ends */
+
 
 /* footer  */
 footer {
