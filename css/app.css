@@ -130,6 +130,16 @@
 
 /* hero section ends */
 
+/* image row section */
+.image-container {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+/* image row section ends */
+
 /* footer  */
 footer {
     background-color: #006ca1;
