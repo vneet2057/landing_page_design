@@ -9,6 +9,12 @@
     /* vneet added color ends */
 }
 
+/* customer bootstrap css */
+.btn-success{
+    background-color: var(--primary-color) !important;
+    border: none !important;
+}
+
 /* 
 1. Body section
 2. header section
@@ -42,7 +48,12 @@
     background-image: url('https://source.unsplash.com/1xTulJUOg9A');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 120vh;
+}
+
+.hero-section .text p{
+    font-size: 25px;
+    font-weight: 300;
 }
 
 .form-area .card {
@@ -55,22 +66,68 @@
     font-size: 12px;
 }
 
-.form-area .card input::placeholder{
+.form-area .card input::placeholder {
     font-size: 12px;
     font-weight: 500;
 }
 
 
-.form-area .card input{
+.form-area .card input {
     margin: 10px 0px;
     border: none;
 }
-.form-area .card .input-group-text{
-    background-color: rgb(255, 255, 255);
-    height: 39px;
-    margin: 10px 0px;
+
+.form-area .card .input-2 input {
+    margin: 3px 0px;
 
 }
+
+.form-area .card .input-group-text {
+    background-color: rgb(255, 255, 255);
+    height: 39px;
+    margin: 9px 0px;
+
+}
+
+.radio-button {
+    position: relative;
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: normal;
+    cursor: pointer;
+  }
+  
+  .radio-button input {
+    display: none;
+  }
+  
+  .radio-icon {
+    position: relative;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 5px;
+  }
+  
+  .fa-male:before {
+    font-size: 25px;
+  }
+  
+  .fa-female:before {
+    font-size: 25px;
+  }
+  
+  .radio-button input:checked + .radio-icon {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color: #fff;
+  }
+  
+
 /* hero section ends */
 
 /* image row section */
