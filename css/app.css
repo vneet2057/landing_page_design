@@ -55,6 +55,22 @@
     font-size: 12px;
 }
 
+.form-area .card input::placeholder{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+
+.form-area .card input{
+    margin: 10px 0px;
+    border: none;
+}
+.form-area .card .input-group-text{
+    background-color: rgb(255, 255, 255);
+    height: 39px;
+    margin: 10px 0px;
+
+}
 /* hero section ends */
 
 /* image row section */
