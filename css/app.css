@@ -10,7 +10,7 @@
 }
 
 /* customer bootstrap css */
-.btn-success{
+.btn-success {
     background-color: var(--primary-color) !important;
     border: none !important;
 }
@@ -51,7 +51,7 @@
     height: 120vh;
 }
 
-.hero-section .text p{
+.hero-section .text p {
     font-size: 25px;
     font-weight: 300;
 }
@@ -95,13 +95,13 @@
     margin-right: 10px;
     font-weight: normal;
     cursor: pointer;
-  }
-  
-  .radio-button input {
+}
+
+.radio-button input {
     display: none;
-  }
-  
-  .radio-icon {
+}
+
+.radio-icon {
     position: relative;
     display: inline-block;
     width: 38px;
@@ -111,24 +111,39 @@
     text-align: center;
     vertical-align: middle;
     padding-top: 5px;
-  }
-  
-  .fa-male:before {
+}
+
+.fa-male:before {
     font-size: 25px;
-  }
-  
-  .fa-female:before {
+}
+
+.fa-female:before {
     font-size: 25px;
-  }
-  
-  .radio-button input:checked + .radio-icon {
+}
+
+.radio-button input:checked+.radio-icon {
     background-color: var(--primary-color);
     border-color: var(--primary-color);
     color: #fff;
-  }
-  
+}
+
 
 /* hero section ends */
+
+/* client section */
+.client-section{
+    margin: 20px 0px;
+}
+
+.client-section .logos img {
+    width: 70%; /* Set the width to 25% to make all logos equal in size */
+    height: auto;
+    aspect-ratio: 3/2;
+    mix-blend-mode: hard-light;
+    object-fit: contain;
+}
+
+/* client section ends */
 
 /* image row section */
 .image-container {
