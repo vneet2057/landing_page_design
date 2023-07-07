@@ -50,15 +50,25 @@
     border-radius: 0;
 }
 
-.form-area .card label{
+.form-area .card label {
     font-weight: 700;
     font-size: 12px;
 }
 
 /* hero section ends */
 
+/* image row section */
+.image-container {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+}
+
+/* image row section ends */
+
 /* footer  */
-footer{
+footer {
     background-color: #006ca1;
     color: #fff;
 }
@@ -66,5 +76,3 @@ footer{
 
 
 /* footer ends */
-
-
