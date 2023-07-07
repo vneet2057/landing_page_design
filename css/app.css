@@ -131,12 +131,13 @@
 /* hero section ends */
 
 /* client section */
-.client-section{
+.client-section {
     margin: 20px 0px;
 }
 
 .client-section .logos img {
-    width: 70%; /* Set the width to 25% to make all logos equal in size */
+    width: 70%;
+    /* Set the width to 25% to make all logos equal in size */
     height: auto;
     aspect-ratio: 3/2;
     mix-blend-mode: hard-light;
@@ -144,6 +145,58 @@
 }
 
 /* client section ends */
+
+/* feature section */
+.feature-section .title-1 {
+    color: var(--primary-color);
+}
+
+.feature-section .title-1 h2 {
+    width: 247px;
+}
+
+.feature-section .title-2 h2 {
+    color: #207dac;
+}
+
+.feature-content {
+    position: relative;
+}
+
+.feature-content .image {
+    position: relative;
+}
+
+.feature-content .gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    border-radius: 0px 50px 50px 0px;
+    background: rgb(144, 194, 27);
+    background: linear-gradient(165deg, rgba(144, 194, 27, 1) 0%, rgba(144, 194, 27, 1) 19%, rgba(80, 202, 128, 0) 55%, rgba(43, 207, 187, 0) 76%, rgba(0, 212, 255, 0) 100%);
+    z-index: 1;
+}
+
+.feature-content img {
+    width: 90%;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 0px 50px 50px 0px;
+    z-index: 2;
+}
+
+.feature-section>div.container-fluid.feature-content>div {
+    width: 100%;
+}
+
+.feature-section>div.container-fluid.feature-content>div>div:nth-child(2)>div .col-lg-6 {
+    padding: 0px 105px 0px 0px;
+}
+
+/* feature section ends */
+
 
 /* image row section */
 .image-container {
