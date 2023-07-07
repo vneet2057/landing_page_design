@@ -130,6 +130,21 @@
 
 /* hero section ends */
 
+/* client section */
+.client-section{
+    margin: 20px 0px;
+}
+
+.client-section .logos img {
+    width: 70%; /* Set the width to 25% to make all logos equal in size */
+    height: auto;
+    aspect-ratio: 3/2;
+    mix-blend-mode: hard-light;
+    object-fit: contain;
+}
+
+/* client section ends */
+
 /* image row section */
 .image-container {
     height: 120px;
