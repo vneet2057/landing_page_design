@@ -171,7 +171,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 90%;
+    width: 80%;
     height: 100%;
     border-radius: 0px 50px 50px 0px;
     background: rgb(144, 194, 27);
@@ -180,7 +180,7 @@
 }
 
 .feature-content img {
-    width: 90%;
+    width: 80%;
     height: 500px;
     object-fit: cover;
     border-radius: 0px 50px 50px 0px;
@@ -192,7 +192,7 @@
 }
 
 .feature-section>div.container-fluid.feature-content>div>div:nth-child(2)>div .col-lg-6 {
-    padding: 0px 105px 0px 0px;
+    padding: 22px 125px 0px 0px;
 }
 
 /* feature section ends */
