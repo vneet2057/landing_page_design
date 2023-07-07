@@ -208,6 +208,25 @@
 
 /* image row section ends */
 
+
+/* jumbotron   */
+.jumbotron-title {
+    color: var(--primary-color);
+    font-size: 28px;
+    font-weight: 'bold';
+}
+
+.jumbotron-section{
+    background-color: #ddd;
+}
+
+.jumbotron-button{
+    width: 350px;
+}
+
+/* jumbotron ends */
+
+
 /* footer  */
 footer {
     background-color: #006ca1;
