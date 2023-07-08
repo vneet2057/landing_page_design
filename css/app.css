@@ -220,6 +220,10 @@
     background-color: var(--primary-color);
 }
 
+.image-container>img{
+    object-fit: contain;
+}
+
 /* image row section ends */
 
 
