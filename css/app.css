@@ -19,8 +19,11 @@
 1. Body section
 2. header section
 3. Hero section 
-
-
+4. client section
+5. feature section
+6. image row section
+7. jumbotron 
+8. footer
 
 */
 
@@ -48,7 +51,7 @@
     background-image: url('https://source.unsplash.com/1xTulJUOg9A');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 120vh;
+    height: auto;
 }
 
 .hero-section .text p {
@@ -137,11 +140,15 @@
 
 .client-section .logos img {
     width: 70%;
-    /* Set the width to 25% to make all logos equal in size */
     height: auto;
     aspect-ratio: 3/2;
     mix-blend-mode: hard-light;
     object-fit: contain;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
 }
 
 /* client section ends */
@@ -198,9 +205,10 @@
 /* feature section ends */
 
 /* client */
-.client-title{
+.client-title {
     margin-bottom: 100px;
 }
+
 /* client title */
 
 
@@ -222,11 +230,11 @@
     font-weight: 'bold';
 }
 
-.jumbotron-section{
+.jumbotron-section {
     background-color: #ddd;
 }
 
-.jumbotron-button{
+.jumbotron-button {
     width: 350px;
 }
 
